@@ -11,10 +11,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     color:rgb(66, 63, 63)66;
-    background-color: rgb(250, 237, 220);
+    background-color: rgb(246, 245, 245);
 }
 
-/* headings and logo */
+/*  headings and logo  */
 h1, h2 {
     font-family: Anton, sans-serif;
     font-weight: 400;
@@ -28,6 +28,7 @@ h1, h2 {
     font-size: 300%;
     line-height: 75px;
     padding-left: 30px;
+    letter-spacing: 8px;
 }
 /* menu and navigation bar */
 #menu {
@@ -42,19 +43,18 @@ h1, h2 {
     margin-right: 25px;
 }
 #menu a {
+    font-family: Anton, sans-serif;
+    font-weight: 100;
     text-decoration: none;
     color: rgb(66, 63, 63);
     line-height: 75px;
     padding: 5px 2px 5px 2px;
 }
 #menu a:hover {
-    background-color: rgb(66, 63, 63);
-    color:rgb(250, 237, 220) ;
-    border: 1.5px solid rgb(66, 63, 63) ;
-   
+    border:2px solid rgb(66, 63, 63);
 }
 
-/* main-image */
+/* main-image and table reservation*/
 
 #main-image {
     height: 600px;
@@ -63,6 +63,35 @@ h1, h2 {
     overflow: hidden;
 
 }
+
+#booking {
+    background-color: rgb(66, 63, 63)  ;
+    color: rgb(250, 237, 220) ;
+
+    width: 200px;
+    height: 50px;
+   margin: 0 auto;
+   margin-top: 200px;
+   border: 2px solid rgb(66, 63, 63) ;
+   border-radius: 50%;
+   transform: translate(-50%);
+   transition: .5s, ease-in-out;
+} 
+#booking h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 130%;
+    padding-top: 12px;
+}
+
+#booking:hover {
+    background-color: rgb(246, 245, 245);
+    color:rgb(66, 63, 63) ;
+    border: 2px solid black;
+    transform: scale(1.5)
+}
+
+
 
 
 
