@@ -9,14 +9,14 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
-    color: black;
+    color:rgb(66, 63, 63)66;
 }
 
 /* headings and logo */
 h1, h2 {
     font-family: Anton, sans-serif;
     font-weight: 400;
-    color: black;
+    color: rgb(66, 63, 63);
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -24,4 +24,28 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    line-height: 75px;
+}
+/* menu and navigation bar */
+#menu {
+    font-size: large;
+    letter-spacing: 2px;
+    float: right;
+}
+
+#menu li {
+    list-style-type: none;
+    float: left;
+    margin-right: 25px;
+}
+#menu a {
+    text-decoration: none;
+    color: rgb(66, 63, 63);
+    line-height: 75px;
+}
+#menu a:hover {
+    color: rgb(33, 173, 33);
+    border: 1.5px solid;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25% ;
 }
