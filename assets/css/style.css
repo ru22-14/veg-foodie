@@ -6,10 +6,12 @@
     border: none;
 }
 
+
 body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     color:rgb(66, 63, 63)66;
+    background-color: rgb(250, 237, 220);
 }
 
 /* headings and logo */
@@ -25,6 +27,7 @@ h1, h2 {
     float: left;
     font-size: 300%;
     line-height: 75px;
+    padding-left: 30px;
 }
 /* menu and navigation bar */
 #menu {
@@ -42,10 +45,25 @@ h1, h2 {
     text-decoration: none;
     color: rgb(66, 63, 63);
     line-height: 75px;
+    padding: 5px 2px 5px 2px;
 }
 #menu a:hover {
-    color: rgb(33, 173, 33);
-    border: 1.5px solid;
-    border-bottom-left-radius: 25%;
-    border-top-right-radius: 25% ;
+    background-color: rgb(66, 63, 63);
+    color:rgb(250, 237, 220) ;
+    border: 1.5px solid rgb(66, 63, 63) ;
+   
 }
+
+/* main-image */
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background:url('../images/veg-food.jpeg') no-repeat center center;
+    overflow: hidden;
+
+}
+
+
+
+
