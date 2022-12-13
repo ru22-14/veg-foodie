@@ -70,12 +70,12 @@ h1, h2 {
 
     width: 200px;
     height: 50px;
-   margin: 0 auto;
-   margin-top: 200px;
-   border: 2px solid rgb(66, 63, 63) ;
-   border-radius: 50%;
-   transform: translate(-50%);
-   transition: .5s, ease-in-out;
+    margin: 0 auto;
+    margin-top: 200px;
+    border: 2px solid rgb(66, 63, 63) ;
+    border-radius: 50%;
+   
+    
 } 
 #booking h3 {
     font-family: 'Times New Roman', Times, serif;
@@ -88,7 +88,7 @@ h1, h2 {
     background-color: rgb(246, 245, 245);
     color:rgb(66, 63, 63) ;
     border: 2px solid black;
-    transform: scale(1.5)
+    transform: scale(2) 
 }
 
 
