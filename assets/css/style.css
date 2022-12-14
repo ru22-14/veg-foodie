@@ -155,7 +155,33 @@ h3 a:hover{
     color: gold;
     border-color: gold;
 }
+/* about us  */
+.info{
+    background-color:  rgb(246, 245, 245);
+    height: 600px;
+    width: 100%;
 
+}
+.abt-us{
+    background-color: rgb(225, 225, 225);
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+.abt-us h2{
+    padding: 30px 0 10px 0;
+}
+.abt-us p {
+    font-family: inherit;
+    font-size: large;
+    font-weight: 400;
+    margin: 50px 30px 10px 30px;
+    padding: 5px 20px 5px 20px;
+
+}
 
 
 
