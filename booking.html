@@ -7,15 +7,34 @@
     <meta name="description" content="vegan and vegetarian restaurant in germany, berlin ">
     <meta name="keywords" content="vegan, vegetarian, restaurant, berlin, germany">
 
-    <link rel="stylesheet" href="index.html" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Veg Foodie</title>
 </head>
 <body>
     <section class="form-section">
         <form method="post" class="booking-form">
             <h2>Enjoy Great Experience of Food and Restaurant with Us!</h2>
+            <p>We request you to check our timings before booking your table. </p>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" class="input-data"><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" class="input-data"><br>
+            
             <label for="date">Date</label>
-            <input type="date" id="date" name="date">
+            <input type="date" id="date" name="date" class="input-data"><br>
+
+            <label for="qty">Guests</label>
+            <input type="number" id="qty" name="qty" min="2" max="14" class="input-data"><br>
+
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" min="16:00" max="22:30" class="input-data"><br>
+
+            
+            <input type="button"  value="search" class="search-button">
+
+
 
 
         </form>

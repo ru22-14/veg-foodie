@@ -23,6 +23,7 @@ h1, h2 {
     letter-spacing: 5px;
 }
 
+
 #logo {
     float: left;
     font-size: 300%;
@@ -77,20 +78,83 @@ h1, h2 {
    
     
 } 
-#booking h3 {
+#booking h3  {
+    
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 130%;
     padding-top: 12px;
 }
+h3 a {
+    color: rgb(246, 245, 245);
+    text-decoration: none;
+}
 
 #booking:hover {
     background-color: rgb(246, 245, 245);
-    color:rgb(66, 63, 63) ;
+    
     border: 2px solid black;
     transform: scale(2) 
 }
+h3 a:hover{
+    color:rgb(66, 63, 63) ;
 
+}
+/* table reservation form */
+
+.form-section {
+    height: 600px;
+    background-color: rgb(246, 245, 245);
+}
+
+.booking-form {
+
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 30px;
+    background-color: rgb(225, 225, 225) ;
+    height: 520px;
+    width: 800px;
+    padding-left: 100px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.booking-form h2 {
+    margin-bottom: 10px;
+}
+
+.booking-form p {
+    font-family: Anton, sans-serif;
+    color: rgb(82, 82, 82);
+    margin-bottom: 8px ;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.input-data {
+    width: 50%;
+    height: 25px;
+    margin-top: 5px;
+    border: 2px solid rgb(82, 82, 82);
+    display: block;
+
+}
+.search-button {
+    background-color: rgb(61, 61, 61) ;
+    color: rgb(225, 225, 225) ;
+    margin-top: 5px;
+    display: block;
+    font-size: larger;
+    padding: 10px 20px;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    
+}
+.search-button:hover {
+    color: gold;
+    border-color: gold;
+}
 
 
 
