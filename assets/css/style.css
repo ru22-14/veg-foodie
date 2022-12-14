@@ -10,12 +10,13 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
-    color:rgb(66, 63, 63)66;
+    color: rgb(66, 63, 63)66;
     background-color: rgb(246, 245, 245);
 }
 
 /*  headings and logo  */
-h1, h2 {
+h1,
+h2 {
     font-family: Anton, sans-serif;
     font-weight: 400;
     color: rgb(66, 63, 63);
@@ -31,6 +32,7 @@ h1, h2 {
     padding-left: 30px;
     letter-spacing: 8px;
 }
+
 /* menu and navigation bar */
 #menu {
     font-size: large;
@@ -43,6 +45,7 @@ h1, h2 {
     float: left;
     margin-right: 25px;
 }
+
 #menu a {
     font-family: Anton, sans-serif;
     font-weight: 100;
@@ -51,8 +54,9 @@ h1, h2 {
     line-height: 75px;
     padding: 5px 2px 5px 2px;
 }
+
 #menu a:hover {
-    border:2px solid rgb(66, 63, 63);
+    border: 2px solid rgb(66, 63, 63);
 }
 
 /* main-image and table reservation*/
@@ -60,31 +64,33 @@ h1, h2 {
 #main-image {
     height: 600px;
     width: 100%;
-    background:url('../images/veg-food.jpeg') no-repeat center center;
+    background: url('../images/veg-food.jpeg') no-repeat center center;
     overflow: hidden;
 
 }
 
 #booking {
-    background-color: rgb(66, 63, 63)  ;
-    color: rgb(250, 237, 220) ;
+    background-color: rgb(66, 63, 63);
+    color: rgb(250, 237, 220);
 
     width: 200px;
     height: 50px;
     margin: 0 auto;
     margin-top: 200px;
-    border: 2px solid rgb(66, 63, 63) ;
+    border: 2px solid rgb(66, 63, 63);
     border-radius: 50%;
-   
-    
-} 
-#booking h3  {
-    
+
+
+}
+
+#booking h3 {
+
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 130%;
     padding-top: 12px;
 }
+
 h3 a {
     color: rgb(246, 245, 245);
     text-decoration: none;
@@ -92,14 +98,16 @@ h3 a {
 
 #booking:hover {
     background-color: rgb(246, 245, 245);
-    
+
     border: 2px solid black;
-    transform: scale(2) 
+    transform: scale(2)
 }
-h3 a:hover{
-    color:rgb(66, 63, 63) ;
+
+h3 a:hover {
+    color: rgb(66, 63, 63);
 
 }
+
 /* table reservation form */
 
 .form-section {
@@ -112,7 +120,7 @@ h3 a:hover{
     margin-left: 15%;
     margin-top: 2%;
     margin-bottom: 30px;
-    background-color: rgb(225, 225, 225) ;
+    background-color: rgb(225, 225, 225);
     height: 520px;
     width: 800px;
     padding-left: 100px;
@@ -127,7 +135,7 @@ h3 a:hover{
 .booking-form p {
     font-family: Anton, sans-serif;
     color: rgb(82, 82, 82);
-    margin-bottom: 8px ;
+    margin-bottom: 8px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -140,49 +148,124 @@ h3 a:hover{
     display: block;
 
 }
+
 .search-button {
-    background-color: rgb(61, 61, 61) ;
-    color: rgb(225, 225, 225) ;
+    background-color: rgb(61, 61, 61);
+    color: rgb(225, 225, 225);
     margin-top: 5px;
     display: block;
     font-size: larger;
     padding: 10px 20px;
     border: 2px solid rgb(61, 61, 61);
     border-radius: 5px;
-    
+
 }
+
 .search-button:hover {
     color: gold;
     border-color: gold;
 }
+
 /* about us  */
-.info{
-    background-color:  rgb(246, 245, 245);
-    height: 600px;
+#about {
+    background-color: rgb(246, 245, 245);
+    height: 500px;
     width: 100%;
 
 }
-.abt-us{
+
+#abt-us {
     background-color: rgb(225, 225, 225);
     height: 400px;
     width: 600px;
     text-align: center;
     margin: 0 auto;
     margin-top: 5%;
+    border: 2px solid rgb(57, 56, 56);
 
 }
-.abt-us h2{
+
+#abt-us h2 {
     padding: 30px 0 10px 0;
 }
-.abt-us p {
+
+#abt-us p {
     font-family: inherit;
     font-size: large;
     font-weight: 400;
     margin: 50px 30px 10px 30px;
     padding: 5px 20px 5px 20px;
+    text-align: justify;
 
 }
 
+/* menu card */
+#menu-card {
+    height: 750px;
+    width: 100%;
+    background-color: rgb(49, 48, 48);
+}
 
+#menu-card h1 {
+    font-family: Anton, sans-serif;
+    font-size: xx-large;
+    color: rgb(225, 225, 225);
+    padding-top: 20px;
+    text-align: center;
+}
 
+#menu-card h1:hover {
+    color: gold;
+}
 
+#left-m {
+    color: rgb(225, 225, 225);
+    border: 4px solid rgb(225, 225, 225);
+    width: 45%;
+    height: 550px;
+    margin-left: 20px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    float: left;
+
+}
+
+#left-m h3 {
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+
+#left-m li {
+    padding-top: 5px;
+    margin-left: 20%;
+    list-style: none;
+}
+
+#right-m {
+    color: rgb(225, 225, 225);
+    border: 4px solid rgb(225, 225, 225);
+    width: 45%;
+    height: 550px;
+    margin-right: 20px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    float: right;
+
+}
+
+#right-m h3 {
+    padding-top: 10px;
+    padding-right: 40px;
+    float: right;
+
+}
+
+#right-m li {
+
+    padding-top: 10px;
+    margin-right: 10%;
+    margin-left: 50%;
+    list-style: none;
+
+}
