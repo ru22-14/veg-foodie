@@ -121,7 +121,7 @@ h3 a:hover {
     margin-top: 2%;
     margin-bottom: 30px;
     background-color: rgb(225, 225, 225);
-    height: 520px;
+    height: 550px;
     width: 800px;
     padding-left: 100px;
     padding-top: 30px;
@@ -136,24 +136,30 @@ h3 a:hover {
     font-family: Anton, sans-serif;
     color: rgb(82, 82, 82);
     margin-bottom: 8px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    display: block;
+    
 }
 
 .input-data {
     width: 50%;
     height: 25px;
-    margin-top: 5px;
     border: 2px solid rgb(82, 82, 82);
     display: block;
 
+}
+label {
+display: block;
+padding-bottom: 5px;
+padding-top: 3px;
+}
+#time {
+    display: block;
 }
 
 .search-button {
     background-color: rgb(61, 61, 61);
     color: rgb(225, 225, 225);
-    margin-top: 5px;
-    display: block;
+    margin-top: 10px;
     font-size: larger;
     padding: 10px 20px;
     border: 2px solid rgb(61, 61, 61);
@@ -321,6 +327,7 @@ h3 a:hover {
    height: 100px;
    height: 100px;
    margin-top: -32%;
-   
-
 }
+
+
+/* social media links */
