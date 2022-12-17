@@ -180,7 +180,7 @@ h3 a:hover {
     width: 600px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 7%;
     border: 2px solid rgb(57, 56, 56);
 
 }
@@ -203,15 +203,22 @@ h3 a:hover {
 #menu-card {
     height: 750px;
     width: 100%;
-    background-color: rgb(49, 48, 48);
+    background-color: rgba(214, 211, 211, 0.564);
+    background: url(../images/table-photo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+
 }
 
 #menu-card h1 {
     font-family: Anton, sans-serif;
     font-size: xx-large;
-    color: rgb(225, 225, 225);
-    padding-top: 20px;
+    color: rgb(49, 48, 48);
+    padding-top: 10px;
     text-align: center;
+    background-color: rgba(122, 120, 120, 0.459);
 }
 
 #menu-card h1:hover {
@@ -219,15 +226,23 @@ h3 a:hover {
 }
 
 #left-m {
-    color: rgb(225, 225, 225);
-    border: 4px solid rgb(225, 225, 225);
+    color: rgb(255, 255, 255);
+    background-color: rgba(90, 89, 89, 0.358);
+    border: 4px solid rgb(33, 32, 32);
     width: 45%;
     height: 550px;
     margin-left: 20px;
+    margin-top: 50px;
     border-bottom-left-radius: 200px;
     border-top-right-radius: 200px;
     float: left;
 
+}
+
+#left-m:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-color: gold
 }
 
 #left-m h3 {
@@ -243,15 +258,23 @@ h3 a:hover {
 }
 
 #right-m {
-    color: rgb(225, 225, 225);
-    border: 4px solid rgb(225, 225, 225);
+    color: rgb(255, 255, 255);
+    background-color: rgba(90, 89, 89, 0.358);
+    border: 4px solid rgb(33, 32, 32);
     width: 45%;
     height: 550px;
     margin-right: 20px;
+    margin-top: 50px;
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
     float: right;
 
+}
+
+#right-m:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-color: gold
 }
 
 #right-m h3 {
@@ -267,5 +290,37 @@ h3 a:hover {
     margin-right: 10%;
     margin-left: 50%;
     list-style: none;
+
+}
+/* Contact, timings, address and location on googlemap */
+#info {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    padding-left: 25px;
+    padding-top: 35px;
+}
+
+#call, #time, #location {
+    display: inline;
+    
+}
+
+#call h2 {
+    text-decoration: underline;
+}
+
+#time h2 {
+    text-decoration: underline;
+}
+#location h2 {
+    text-decoration: underline;
+}
+#container {
+    float: right;
+   height: 100px;
+   height: 100px;
+   margin-top: -32%;
+   
 
 }
