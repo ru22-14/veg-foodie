@@ -66,6 +66,9 @@ h2 {
     width: 100%;
     background: url('../images/veg-food.jpeg') no-repeat center center;
     overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    
 
 }
 
