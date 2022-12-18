@@ -137,7 +137,7 @@ h3 a:hover {
     color: rgb(82, 82, 82);
     margin-bottom: 8px;
     display: block;
-    
+
 }
 
 .input-data {
@@ -147,11 +147,13 @@ h3 a:hover {
     display: block;
 
 }
+
 label {
-display: block;
-padding-bottom: 5px;
-padding-top: 3px;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 3px;
 }
+
 #time {
     display: block;
 }
@@ -298,6 +300,7 @@ padding-top: 3px;
     list-style: none;
 
 }
+
 /* Contact, timings, address and location on googlemap */
 #info {
     height: 500px;
@@ -307,9 +310,11 @@ padding-top: 3px;
     padding-top: 35px;
 }
 
-#call, #time, #location {
+#call,
+#time,
+#location {
     display: inline;
-    
+
 }
 
 #call h2 {
@@ -319,15 +324,60 @@ padding-top: 3px;
 #time h2 {
     text-decoration: underline;
 }
+
 #location h2 {
     text-decoration: underline;
 }
+
 #container {
     float: right;
-   height: 100px;
-   height: 100px;
-   margin-top: -32%;
+    height: 100px;
+    height: 100px;
+    margin-top: -32%;
 }
 
-
+/* footer */
 /* social media links */
+footer {
+    height: 150px;
+    background-color: black;
+}
+
+footer>h2 {
+    text-align: center;
+    color: rgb(225, 225, 225);
+    padding-top: 20px;
+
+}
+
+.social-networks {
+    text-align: center;
+
+
+}
+
+.social-networks li {
+    display: inline;
+
+
+}
+
+.social-networks i {
+
+    font-size: 200%;
+    padding: 5px 15px;
+    margin-top: 15px;
+
+    color: rgb(134, 132, 132);
+    border: 2px solid rgb(4, 4, 4);
+
+}
+
+.social-networks i:hover {
+    color: rgb(134, 132, 132);
+    border: 2px solid gold;
+    transition: 2s;
+    transform: scale(0.9);
+    animation-fill-mode: backwards;
+
+}
