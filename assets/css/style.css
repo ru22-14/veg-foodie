@@ -403,7 +403,13 @@ footer p {
         font-size: medium;
         letter-spacing: 0;
     }
-    
+}
+/* navigation bar for screen size 300px and down */
+@media (max-width: 300px) {
+    #menu {
+        display: flex;
+        font-size: small;
+    }
 }
 
 
