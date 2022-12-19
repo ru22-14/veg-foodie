@@ -384,3 +384,8 @@ footer>h2 {
     animation-fill-mode: backwards;
 
 }
+
+footer p {
+    color: rgb(134, 132, 132) ;
+    text-align: center;
+}
