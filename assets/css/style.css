@@ -68,7 +68,7 @@ h2 {
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    
+
 
 }
 
@@ -386,6 +386,26 @@ footer>h2 {
 }
 
 footer p {
-    color: rgb(134, 132, 132) ;
+    color: rgb(134, 132, 132);
     text-align: center;
 }
+
+/*navigation bar for medium screen size 950px and down */
+
+@media (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        line-height: 25px;
+        display: flex;
+        font-size: medium;
+        letter-spacing: 0;
+    }
+    
+}
+
+
+
+
