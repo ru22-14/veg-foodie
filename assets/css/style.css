@@ -408,7 +408,21 @@ footer p {
         height: 600px;
       
     }
-   
+    #about {
+        width: 80%;
+        height:400px
+        }
+    #abt-us  {
+        width:80%;
+        height: 300px;
+        margin: 20%;
+        
+        overflow: hidden;
+        overflow-y: scroll;
+        }
+        #abt-us p {
+            margin-top: 0;
+        }    
     
 }
 /* navigation bar for screen size 300px and down */
@@ -422,6 +436,24 @@ footer p {
         height: 400px;
        
     }
+    #about {
+        float: left;
+        width: 100%;
+        height: 400px
+    }
+    #abt-us {
+        width: 50%;
+        height: 200px;
+        overflow: hidden;
+        overflow-y: scroll;
+        
+    }
+    #abt-us p {
+        margin: 0;
+        padding: 2px;
+    }
+    
+
 }
 
 
