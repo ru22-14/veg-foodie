@@ -309,15 +309,12 @@ label {
     height: 500px;
     width: 100%;
     background-color: rgb(225, 225, 225);
-    padding-left: 25px;
-    padding-top: 35px;
+    padding-top: 20px;
+    
+    
 }
-
-#call,
-#time,
-#location {
-    display: inline;
-
+#contact {
+    float: right;
 }
 
 #call h2 {
@@ -331,12 +328,14 @@ label {
 #location h2 {
     text-decoration: underline;
 }
-
+#map {
+    float: left;
+    width: 35%;
+}
 #container {
-    float: right;
+    
     height: 100px;
-    height: 100px;
-    margin-top: -32%;
+    
 }
 
 /* footer */
@@ -408,6 +407,7 @@ footer p {
         height: 600px;
       
     }
+    /* about us */
     #about {
         width: 80%;
         height:400px
@@ -430,6 +430,7 @@ footer p {
          }
          #left-m {
            border-radius: 100px;
+           overflow-wrap: normal;
            
          }
          #left-m h3 {
@@ -462,10 +463,34 @@ footer p {
              
              
           }
+/* contact */
+     #info{
+        height: 1000px;
+        
+        
+     }   
+    #contact {
+      width: 20%;
+      margin-right: 55px;  
+    }
+    
+    
+    #map {
+        
+        width: 25%;
+    }
+    #container {
+        height: 300px;
+        width: 300px;
+        clear: right;
+        padding-left: 30px;
+        overflow: scroll;
+        
+    }
     
 }
-/* navigation bar for screen size 450px and down */
-@media (max-width: 450px) {
+/* navigation bar for screen size 590px and down */
+@media (max-width: 590px) {
     #menu {
         display: flex;
         font-size: small;
@@ -500,7 +525,7 @@ footer p {
     }
     #left-m {
         height: 500px;
-        max-width: 120px;
+        max-width: 150px;
         float: left;
         overflow: hidden;
         overflow-y: scroll;
@@ -509,7 +534,7 @@ footer p {
     }
     #right-m {
         height: 500px;
-        max-width: 120px;
+        max-width: 150px;
         float: right;
         overflow: hidden;
         overflow-y: scroll;
@@ -518,14 +543,45 @@ footer p {
         
 
     }
+    #call {
+        float: left;
+        padding-left: 15px;
+    }
+    #time {
+        float: right;
+        padding-right: 15px;
+    }
+    #contact {
+        display:inline-grid;
+        margin-right: 50%;
+    }
+    #map {
+        clear: both;
+        margin: 15% auto
+    }
+    footer {
+        text-align: center;
+    }
+    
+    
 }
     
-/* navigation for screen size 300px and down */
-    @media (max-width: 300px){
-        #left-m #right-m{
+/* navigation for screen size 385px and down */
+    @media (max-width: 385px){
+        /* menu card */
+        #left-m {
             max-width: 100px;
         }
+        #right-m{
+            max-width: 100px;
     }
+    /* map */
+    #container{
+        height: 250px;
+        width: 250px;
+
+    }
+}
     
 
 
