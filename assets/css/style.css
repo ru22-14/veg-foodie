@@ -354,8 +354,8 @@ label {
 }
 #contact {
     float: right;
-    width: 30%;
-    padding-right: 10%;
+    max-width: 30%;
+    padding-right: 15%;
 }
 
 #call h2 {
@@ -371,7 +371,7 @@ label {
 }
 #map {
     float: left;
-    max-height: 200px;
+    max-height: 450px;
     width: 30%;
     padding-left: 10%;
 
@@ -505,7 +505,7 @@ footer p {
           }
 /* contact */
      #info{
-        height: 1000px;
+        height: 800px;
         
         
      }   
@@ -514,16 +514,14 @@ footer p {
       margin-right: 55px;  
     }
     /* map */
-    
     #map {
-        
-        width: 25%;
+        margin-top: 10%;
     }
+   
     #container {
-        height: 300px;
-        width: 300px;
+        
         clear: right;
-        padding-left: 30px;
+        
         overflow: scroll;
         
     }
@@ -541,40 +539,44 @@ footer p {
        
     }
     #about {
-        float: left;
-        width: 100%;
+        
+        width: 80%;
         height: 400px
     }
     #abt-us {
-        width: 50%;
-        height: 200px;
-        overflow: hidden;
-        overflow-y: scroll;
+        width: 85%;
+        height: 350px;
+        margin-top: 10%;
+        /* overflow: hidden;
+        overflow-y: scroll; */
+
+        
         
     }
     #abt-us p {
         margin: 0;
-        padding: 2px;
+        padding: 15px;
     }
 
     /* menu */
     #menu-card {
-        height: 1100px;
+        height: 650px;
         width: 100%;
         background-size: center;
     }
     #left-m {
-        height: 500px;
-        max-width: 150px;
+        max-height: 500px;
+        max-width: 40%;
         float: left;
         overflow: hidden;
         overflow-y: scroll;
         border-radius: 2px;
         margin-left: 25px;
+        
     }
     #right-m {
         height: 500px;
-        max-width: 150px;
+        max-width: 40%;
         float: right;
         overflow: hidden;
         overflow-y: scroll;
@@ -586,13 +588,20 @@ footer p {
     /* contact */
    
     
-    #contact {
-        display:inline-grid;
-        margin-right: 50%;
+    #info{
+        height: 1200px;
+        width: 100%;
+        
+        
     }
-    #map {
+    #contact {
+        float: left;
+        padding-left: 20%;
+    }
+    #container {
         clear: both;
-        margin: 15% auto
+        width: 300px;
+        height: 200px;
     }
     /* footer */
     footer {
@@ -602,20 +611,56 @@ footer p {
     
 }
     
-/* navigation for screen size 385px and down */
-    @media (max-width: 385px){
+/* navigation for screen size 380px and down */
+    @media (max-width: 380px) {
+        /* menu bar */
+        #menu li {
+            margin-right: 15px;
+            text-align: center;
+        }
         /* menu card */
+        #menu-card {
+            height: 1200px;
+            width: 100%;
+        }
         #left-m {
-            max-width: 100px;
+            height: 400px;
+            width: 100%;
+            padding: 20px;
+            margin: 20%;
+           
+
         }
         #right-m{
-            max-width: 100px;
-    }
+            clear: both;
+            height: 400px;
+            width: 80%;
+            float: left;
+            clear: both;
+            padding: 20px;
+            margin: 0 20%;
+        }
+        #booking:hover {
+            transform: scale(1.2)
+
+            
+        }
     /* map */
     #container{
-        height: 250px;
-        width: 250px;
+        max-height: 150px;
+        width: 200px;
+        clear: both;
+        margin: 20%;
+    }
+    font h2 {
+        text-align: center;
+    }
+}
+/* navigation for screen size 300px and down */
 
+@media (max-width:300px) {
+    #menu li {
+        margin-right: 25px;
     }
 }
     
