@@ -43,7 +43,7 @@ h2 {
 #menu li {
     list-style-type: none;
     float: left;
-    margin-right: 25px;
+    margin-right: 35px;
 }
 
 #menu a {
@@ -57,6 +57,10 @@ h2 {
 
 #menu a:hover {
     border: 2px solid rgb(66, 63, 63);
+}
+
+.active {
+    border-bottom: 2px solid black;
 }
 
 /* main-image and table reservation*/
@@ -223,7 +227,7 @@ label {
 #abt-us {
     background-color: rgb(225, 225, 225);
     height: 400px;
-    width: 600px;
+    width: 800px;
     text-align: center;
     margin: 0 auto;
     margin-top: 7%;
@@ -239,7 +243,7 @@ label {
     font-family: inherit;
     font-size: large;
     font-weight: 400;
-    margin: 50px 30px 10px 30px;
+    margin: 60px 30px 5px 30px;
     padding: 5px 20px 5px 20px;
     text-align: justify;
 
@@ -350,6 +354,8 @@ label {
 }
 #contact {
     float: right;
+    width: 30%;
+    padding-right: 10%;
 }
 
 #call h2 {
@@ -365,13 +371,12 @@ label {
 }
 #map {
     float: left;
-    width: 35%;
+    max-height: 200px;
+    width: 30%;
+    padding-left: 10%;
+
 }
-#container {
-    
-    height: 100px;
-    
-}
+
 
 /* footer */
 /* social media links */
