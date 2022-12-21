@@ -473,7 +473,7 @@ footer p {
       width: 20%;
       margin-right: 55px;  
     }
-    
+    /* map */
     
     #map {
         
@@ -543,14 +543,9 @@ footer p {
         
 
     }
-    #call {
-        float: left;
-        padding-left: 15px;
-    }
-    #time {
-        float: right;
-        padding-right: 15px;
-    }
+    /* contact */
+   
+    
     #contact {
         display:inline-grid;
         margin-right: 50%;
@@ -559,6 +554,7 @@ footer p {
         clear: both;
         margin: 15% auto
     }
+    /* footer */
     footer {
         text-align: center;
     }
