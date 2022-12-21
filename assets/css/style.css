@@ -114,17 +114,22 @@ h3 a:hover {
 /* table reservation form */
 
 .form-section {
-    height: 600px;
+    height: 900px;
     background-color: rgb(246, 245, 245);
+    background-image:url(../booking-img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
 }
 
 .booking-form {
 
-    margin-left: 15%;
-    margin-top: 2%;
+    margin-left: 18%;
+    margin-top: 8%;
     margin-bottom: 30px;
-    background-color: rgb(225, 225, 225);
-    height: 550px;
+    background-color: rgba(225, 225, 225, 0.406);
+    height: 600px;
     width: 800px;
     padding-left: 100px;
     padding-top: 30px;
@@ -161,7 +166,7 @@ label {
     display: block;
 }
 
-.search-button {
+.request-button {
     background-color: rgb(61, 61, 61);
     color: rgb(225, 225, 225);
     margin-top: 10px;
@@ -169,12 +174,42 @@ label {
     padding: 10px 20px;
     border: 2px solid rgb(61, 61, 61);
     border-radius: 5px;
+    text-decoration: none;
 
 }
 
-.search-button:hover {
+.request-button:hover {
     color: gold;
     border-color: gold;
+}
+
+#request {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(161, 159, 159, 0.445);
+    background-image: url(../images/table-booking.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clear: both;
+
+}
+
+#response {
+    height: 400px; 
+    width: 100%;
+    padding-left: 25%;
+    padding-top:15%;
+    background-color:  rgba(161, 159, 159, 0.546);
+}
+#response h3 {
+    font-size: xx-large;
+    
+}
+#response p {
+    font-size: x-large;
+    font-weight: 600;
+    padding-top: 10px;
 }
 
 /* about us  */
