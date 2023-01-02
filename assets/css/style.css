@@ -203,19 +203,19 @@ label {
 }
 
 #response {
-    height: 400px; 
+    height: 600px; 
     width: 100%;
-    padding-left: 25%;
-    padding-top:15%;
     background-color:  rgba(161, 159, 159, 0.546);
 }
 #response h3 {
-    font-size: xx-large;
-    
+    font-size: x-large;
+    padding-left: 25%;
+    padding-top: 10%;
 }
 #response p {
-    font-size: x-large;
-    font-weight: 600;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-left: 25%;
     padding-top: 10px;
 }
 
@@ -435,6 +435,7 @@ footer p {
 /*navigation bar for medium screen size 950px and down */
 
 @media (max-width: 950px) {
+    /* navigation bar bar */
     #menu {
         clear: left;
         float: left;
@@ -445,6 +446,7 @@ footer p {
         font-size: medium;
         letter-spacing: 0;
     }
+    /* main image */
     #main-image{
         width: 100%;
         height: 600px;
@@ -466,11 +468,12 @@ footer p {
         #abt-us p {
             margin-top: 0;
         }
-         /*menu*/
+         /*menu cards*/
          #menu-card {
             height: 750px;
             width: 100%;
          }
+         /* left menu card */
          #left-m {
            border-radius: 100px;
            overflow-wrap: normal;
@@ -486,6 +489,7 @@ footer p {
             margin-left: 12%;
             
          }
+         /* right menu card */
          #right-m {
             border-radius: 100px;
             
@@ -528,6 +532,7 @@ footer p {
         overflow: scroll;
         
     }
+    /* booking form */
      .booking-form {
         width: 500px;
         margin-left: 25px;
@@ -538,20 +543,28 @@ footer p {
         letter-spacing: normal;
         text-align: left;
      }
+     
+     #request {
+        height: 600px;
+        width: 100%;
+     }
 
     
 }
 /* navigation bar for screen size 590px and down */
 @media (max-width: 590px) {
+    /* navigation bar */
     #menu {
         display: flex;
         font-size: small;
     }
+    /* main image */
     #main-image{
         width: 100%;
         height: 400px;
        
     }
+    /* about us */
     #about {
         
         width: 80%;
@@ -561,23 +574,19 @@ footer p {
         width: 85%;
         height: 350px;
         margin-top: 10%;
-        /* overflow: hidden;
-        overflow-y: scroll; */
-
-        
-        
     }
     #abt-us p {
         margin: 0;
         padding: 15px;
     }
 
-    /* menu */
+    /* menu cards */
     #menu-card {
         height: 650px;
         width: 100%;
         background-size: center;
     }
+    /* left menu card */
     #left-m {
         max-height: 500px;
         max-width: 40%;
@@ -588,6 +597,7 @@ footer p {
         margin-left: 25px;
         
     }
+    /* right menu card */
     #right-m {
         height: 500px;
         max-width: 40%;
@@ -612,6 +622,7 @@ footer p {
         float: left;
         padding-left: 20%;
     }
+    /* map */
     #container {
         clear: both;
         width: 300px;
@@ -621,7 +632,7 @@ footer p {
     footer {
         text-align: center;
     }
-
+    /* booking form */
     .booking-form {
         width: 300px;
         margin-left: 10%;
@@ -629,7 +640,13 @@ footer p {
     .request-button {
         margin: 20px;
     }
-    
+    /* booking response */
+    #response h3 {
+        padding-left: 30px;
+    }
+    #response p {
+        padding-left: 25px;
+    }
     
 }
 
@@ -644,7 +661,7 @@ footer p {
             font-weight: 800;
          }
         
-        /* menu bar */
+        /* navigation bar */
         #menu li {
             margin-right: 15px;
             text-align: center;
@@ -654,6 +671,7 @@ footer p {
             height: 1200px;
             width: 100%;
         }
+        /* left menu card */
         #left-m {
             height: 400px;
             width: 100%;
@@ -662,6 +680,7 @@ footer p {
            
 
         }
+        /* right menu card */
         #right-m{
             clear: both;
             height: 400px;
@@ -671,6 +690,7 @@ footer p {
             padding: 20px;
             margin: 0 20%;
         }
+        /* online reservation button */
         #booking:hover {
             transform: scale(1.2)
 
@@ -683,9 +703,11 @@ footer p {
         clear: both;
         margin: 20%;
     }
+    /* social media fonts */
     font h2 {
         text-align: center;
     }
+    /* booking form */
     .booking-form {
         height: 650px;
         width: 250px;
@@ -697,13 +719,27 @@ footer p {
     .booking-form p {
         font-size: small;
     }
+    /* booking response */
+    #response h3 {
+        font-size: larger;
+    }
+    
+    #response p {
+
+        padding-left: 30px;
+        font-size: large;
+
+       
+    }
 }
 /* navigation for screen size 300px and down */
 
 @media (max-width:300px) {
+    /* navigation bar */
     #menu li {
         margin-right: 25px;
     }
+    /* booking form */
     .booking-form {
         width: 200px;
     }
