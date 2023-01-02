@@ -6,11 +6,10 @@
     border: none;
 }
 
-
 body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
-    color: rgb(66, 63, 63)66;
+    color: rgb(66, 63, 63);
     background-color: rgb(246, 245, 245);
 }
 
@@ -23,7 +22,6 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
 }
-
 
 #logo {
     float: left;
@@ -72,22 +70,17 @@ h2 {
     overflow: hidden;
     background-position: center;
     background-size: cover;
-
-
 }
 
 #booking {
-    background-color: rgb(66, 63, 63);
+    background-color: rgba(93, 90, 90, 0.799);
     color: rgb(250, 237, 220);
-
     width: 200px;
     height: 50px;
     margin: 0 auto;
     margin-top: 200px;
-    border: 2px solid rgb(66, 63, 63);
+    border: 2px solid rgba(10, 10, 10, 0.932);
     border-radius: 50%;
-
-
 }
 
 #booking h3 {
@@ -112,11 +105,9 @@ h3 a {
 
 h3 a:hover {
     color: rgb(66, 63, 63);
-
 }
 
 /* table reservation form */
-
 .form-section {
     height: 900px;
     width: 100%;
@@ -160,7 +151,6 @@ h3 a:hover {
     border: 2px solid rgb(82, 82, 82);
     display: block;
     text-align: center;
-
 }
 
 label {
@@ -179,10 +169,9 @@ label {
 
     font-size: larger;
     padding: 10px 20px;
-    border: 2px solid rgb(61, 61, 61);
+    border: 2px solid rgb(19, 18, 18);
     border-radius: 5px;
     text-decoration: none;
-
 }
 
 .request-button:hover {
@@ -199,7 +188,6 @@ label {
     background-position: center;
     background-size: cover;
     clear: both;
-
 }
 
 #response {
@@ -211,8 +199,10 @@ label {
     font-size: x-large;
     padding-left: 25%;
     padding-top: 10%;
+    color: black;
 }
 #response p {
+    color: black;
     font-size: xx-large;
     font-weight: 900;
     padding-left: 25%;
@@ -224,7 +214,6 @@ label {
     background-color: rgb(246, 245, 245);
     height: 500px;
     width: 100%;
-
 }
 
 #abt-us {
@@ -235,7 +224,6 @@ label {
     margin: 0 auto;
     margin-top: 7%;
     border: 2px solid rgb(57, 56, 56);
-
 }
 
 #abt-us h2 {
@@ -249,7 +237,6 @@ label {
     margin: 60px 30px 5px 30px;
     padding: 5px 20px 5px 20px;
     text-align: justify;
-
 }
 
 /* menu card */
@@ -262,10 +249,9 @@ label {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: lighten;
-
 }
 
-#menu-card h1 {
+#menu-card h2 {
     font-family: Anton, sans-serif;
     font-size: xx-large;
     color: rgb(49, 48, 48);
@@ -274,7 +260,7 @@ label {
     background-color: rgba(122, 120, 120, 0.459);
 }
 
-#menu-card h1:hover {
+#menu-card h2:hover {
     color: gold;
 }
 
@@ -289,7 +275,6 @@ label {
     border-bottom-left-radius: 200px;
     border-top-right-radius: 200px;
     float: left;
-
 }
 
 #left-m:hover {
@@ -301,7 +286,6 @@ label {
 #left-m h3 {
     padding-top: 10px;
     padding-left: 40px;
-
 }
 
 #left-m li {
@@ -321,7 +305,6 @@ label {
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
     float: right;
-
 }
 
 #right-m:hover {
@@ -333,17 +316,14 @@ label {
 #right-m h3 {
     padding-top: 10px;
     padding-right: 40px;
-    float: right;
-
+    text-align: center;
 }
 
 #right-m li {
-
     padding-top: 10px;
     margin-right: 10%;
     margin-left: 50%;
     list-style: none;
-
 }
 
 /* Contact, timings, address and location on googlemap */
@@ -352,9 +332,8 @@ label {
     width: 100%;
     background-color: rgb(225, 225, 225);
     padding-top: 20px;
-    
-    
 }
+
 #contact {
     float: right;
     max-width: 30%;
@@ -377,9 +356,7 @@ label {
     max-height: 450px;
     width: 30%;
     padding-left: 10%;
-
 }
-
 
 /* footer */
 /* social media links */
@@ -392,19 +369,14 @@ footer>h2 {
     text-align: center;
     color: rgb(225, 225, 225);
     padding-top: 20px;
-
 }
 
 .social-networks {
     text-align: center;
-
-
 }
 
 .social-networks li {
     display: inline;
-
-
 }
 
 .social-networks i {
@@ -415,7 +387,6 @@ footer>h2 {
 
     color: rgb(134, 132, 132);
     border: 2px solid rgb(4, 4, 4);
-
 }
 
 .social-networks i:hover {
@@ -424,7 +395,6 @@ footer>h2 {
     transition: 2s;
     transform: scale(0.9);
     animation-fill-mode: backwards;
-
 }
 
 footer p {
@@ -435,7 +405,7 @@ footer p {
 /*navigation bar for medium screen size 950px and down */
 
 @media (max-width: 950px) {
-    /* navigation bar bar */
+      /* navigation bar */
     #menu {
         clear: left;
         float: left;
@@ -446,76 +416,71 @@ footer p {
         font-size: medium;
         letter-spacing: 0;
     }
-    /* main image */
+     /* main image */
     #main-image{
         width: 100%;
         height: 600px;
-      
     }
-    /* about us */
+     /* about us */
     #about {
         width: 80%;
         height:400px
-        }
-    #abt-us  {
+    }
+    #abt-us {
         width:80%;
         height: 300px;
         margin: 20%;
         
         overflow: hidden;
         overflow-y: scroll;
-        }
-        #abt-us p {
-            margin-top: 0;
-        }
+    }
+    #abt-us p {
+         margin-top: 0;
+    }
          /*menu cards*/
-         #menu-card {
-            height: 750px;
+    #menu-card {
+        height: 750px;
             width: 100%;
-         }
+    }
          /* left menu card */
-         #left-m {
-           border-radius: 100px;
-           overflow-wrap: normal;
+    #left-m {
+        border-radius: 100px;
+        overflow-wrap: normal;
            
-         }
-         #left-m h3 {
-            padding-top: 10px;
-            padding-left: 15%;
-            padding-bottom: 0;
-            text-decoration: underline;
-         }
-         #left-m li {
-            margin-left: 12%;
+    }
+    #left-m h3 {
+        padding-top: 10px;
+        padding-left: 15%;
+        padding-bottom: 0;
+        text-decoration: underline;
+    }
+    #left-m li {
+        margin-left: 12%;
             
-         }
+    }
          /* right menu card */
-         #right-m {
-            border-radius: 100px;
+    #right-m {
+        border-radius: 100px;
             
-          }
-          #right-m h3 {
-             float: left;
-             padding-top: 15px;
-             padding-bottom: 10px;
-             margin-left: 20%;
-             margin-right: 100%;
-             text-decoration: underline;
-             
-          }
-          #right-m li {
+    }
+    #right-m h3 {
+        float: left;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        margin-left: 20%;
+        margin-right: 100%;
+        text-decoration: underline;
+    }
+    #right-m li {
             
-             margin-left: 15%;
-             padding-top: 10px;
-             
-             
-          }
+        margin-left: 15%;
+        padding-top: 10px;
+    }
 /* contact */
      #info{
         height: 800px;
-        
-        
-     }   
+    }
+
     #contact {
       width: 20%;
       margin-right: 55px;  
@@ -528,28 +493,24 @@ footer p {
     #container {
         
         clear: right;
-        
         overflow: scroll;
-        
     }
     /* booking form */
      .booking-form {
         width: 500px;
         margin-left: 25px;
         padding-left: 8%;
-        
-     }
+    }
      .booking-form h2 {
         letter-spacing: normal;
         text-align: left;
-     }
+    }
      
      #request {
         height: 600px;
         width: 100%;
-     }
+    }
 
-    
 }
 /* navigation bar for screen size 590px and down */
 @media (max-width: 590px) {
@@ -557,24 +518,25 @@ footer p {
     #menu {
         display: flex;
         font-size: small;
-    }
-    /* main image */
+        }
+     /* main image */
     #main-image{
         width: 100%;
         height: 400px;
-       
     }
-    /* about us */
+    
+     /* about us */
     #about {
-        
         width: 80%;
         height: 400px
     }
+    
     #abt-us {
         width: 85%;
         height: 350px;
         margin-top: 10%;
     }
+   
     #abt-us p {
         margin: 0;
         padding: 15px;
@@ -584,8 +546,9 @@ footer p {
     #menu-card {
         height: 650px;
         width: 100%;
-        background-size: center;
+        background-position: center;
     }
+    
     /* left menu card */
     #left-m {
         max-height: 500px;
@@ -606,29 +569,25 @@ footer p {
         overflow-y: scroll;
         border-radius: 2px;
         margin-right: 25px;
-        
-
     }
-    /* contact */
-   
     
+     /* contact */
     #info{
         height: 1200px;
         width: 100%;
-        
-        
     }
     #contact {
         float: left;
         padding-left: 20%;
-    }
-    /* map */
+        }
+    
+     /* map */
     #container {
         clear: both;
         width: 300px;
         height: 200px;
     }
-    /* footer */
+     /* footer */
     footer {
         text-align: center;
     }
@@ -647,55 +606,51 @@ footer p {
     #response p {
         padding-left: 25px;
     }
-    
 }
 
-    
 /* navigation for screen size 380px and down */
-    @media (max-width: 380px) {
+    
+@media (max-width: 380px) {
         /* logo */
         
-         #logo {
-            letter-spacing: 0.5px;
-            font-size: medium;
-            font-weight: 800;
-         }
+    #logo {
+        letter-spacing: 0.5px;
+        font-size: medium;
+        font-weight: 800;
+    }
         
         /* navigation bar */
-        #menu li {
-            margin-right: 15px;
-            text-align: center;
-        }
+    #menu li {
+        margin-right: 15px;
+        text-align: center;
+    }
         /* menu card */
-        #menu-card {
-            height: 1200px;
-            width: 100%;
-        }
+    #menu-card {
+        height: 1200px;
+         width: 100%;
+    }
         /* left menu card */
-        #left-m {
-            height: 400px;
-            width: 100%;
-            padding: 20px;
-            margin: 20%;
-           
-
-        }
+    #left-m {
+        height: 400px;
+        width: 100%;
+        padding: 20px;
+        margin: 20%;
+    }
         /* right menu card */
-        #right-m{
-            clear: both;
-            height: 400px;
-            width: 80%;
-            float: left;
-            clear: both;
-            padding: 20px;
-            margin: 0 20%;
-        }
+    #right-m{
+        clear: both;
+        height: 400px;
+        width: 80%;
+        float: left;
+        clear: both;
+        padding: 20px;
+        margin: 0 20%;
+    }
         /* online reservation button */
-        #booking:hover {
-            transform: scale(1.2)
-
-            
-        }
+    #booking:hover {
+        transform: scale(1.2)
+    }
+    
     /* map */
     #container{
         max-height: 150px;
@@ -703,10 +658,12 @@ footer p {
         clear: both;
         margin: 20%;
     }
+    
     /* social media fonts */
     font h2 {
         text-align: center;
     }
+    
     /* booking form */
     .booking-form {
         height: 650px;
@@ -728,10 +685,9 @@ footer p {
 
         padding-left: 30px;
         font-size: large;
-
-       
     }
 }
+
 /* navigation for screen size 300px and down */
 
 @media (max-width:300px) {
@@ -747,7 +703,7 @@ footer p {
         font-size: small;
     }
     .booking-form p {
-        font-size: x-smaller;
+        font-size: x-small;
         font-weight: 100;
     }
     .request-button {
