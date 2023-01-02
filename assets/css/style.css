@@ -119,6 +119,7 @@ h3 a:hover {
 
 .form-section {
     height: 900px;
+    width: 100%;
     background-color: rgb(246, 245, 245);
     background-image:url(../booking-img.jpeg);
     background-position: center;
@@ -134,7 +135,7 @@ h3 a:hover {
     margin-bottom: 30px;
     background-color: rgba(225, 225, 225, 0.406);
     height: 600px;
-    width: 800px;
+    width: 600px;
     padding-left: 100px;
     padding-top: 30px;
     position: absolute;
@@ -142,6 +143,7 @@ h3 a:hover {
 
 .booking-form h2 {
     margin-bottom: 10px;
+    letter-spacing: 2px;
 }
 
 .booking-form p {
@@ -157,6 +159,7 @@ h3 a:hover {
     height: 25px;
     border: 2px solid rgb(82, 82, 82);
     display: block;
+    text-align: center;
 
 }
 
@@ -173,7 +176,7 @@ label {
 .request-button {
     background-color: rgb(61, 61, 61);
     color: rgb(225, 225, 225);
-    margin-top: 10px;
+
     font-size: larger;
     padding: 10px 20px;
     border: 2px solid rgb(61, 61, 61);
@@ -525,6 +528,17 @@ footer p {
         overflow: scroll;
         
     }
+     .booking-form {
+        width: 500px;
+        margin-left: 25px;
+        padding-left: 8%;
+        
+     }
+     .booking-form h2 {
+        letter-spacing: normal;
+        text-align: left;
+     }
+
     
 }
 /* navigation bar for screen size 590px and down */
@@ -607,12 +621,29 @@ footer p {
     footer {
         text-align: center;
     }
+
+    .booking-form {
+        width: 300px;
+        margin-left: 10%;
+    }
+    .request-button {
+        margin: 20px;
+    }
     
     
 }
+
     
 /* navigation for screen size 380px and down */
     @media (max-width: 380px) {
+        /* logo */
+        
+         #logo {
+            letter-spacing: 0.5px;
+            font-size: medium;
+            font-weight: 800;
+         }
+        
         /* menu bar */
         #menu li {
             margin-right: 15px;
@@ -655,6 +686,17 @@ footer p {
     font h2 {
         text-align: center;
     }
+    .booking-form {
+        height: 650px;
+        width: 250px;
+        margin-left: 15px;
+    }
+    .booking-form h2 {
+        font-size: medium;
+    }
+    .booking-form p {
+        font-size: small;
+    }
 }
 /* navigation for screen size 300px and down */
 
@@ -662,6 +704,20 @@ footer p {
     #menu li {
         margin-right: 25px;
     }
+    .booking-form {
+        width: 200px;
+    }
+    .booking-form h2 {
+        font-size: small;
+    }
+    .booking-form p {
+        font-size: x-smaller;
+        font-weight: 100;
+    }
+    .request-button {
+        margin: 0;
+    }
+
 }
     
 
