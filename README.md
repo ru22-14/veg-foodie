@@ -108,14 +108,27 @@ This section provides the information about contact details **(phone and email)*
 
 # Testing
 
+### Manual Testing of all elements and functionality on different screen sizes
+
+- Home
+- Hero image
+- Online reservation
+- About Us
+- Menu
+- Contact
+- Footer
+- Reservation Form
+- Confirmation
+
+
 
 ## Validator 
 
 - HTML 
-   -[W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fru22-14.github.io%2Fveg-foodie%2F)
+   - No errors were found when passing through the official  [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fru22-14.github.io%2Fveg-foodie%2F)
 
 - CSS
-   -[jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fru22-14.github.io%2Fveg-foodie%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+   - No errors were found when passing throught the official  [jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fru22-14.github.io%2Fveg-foodie%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
 ## Deployment
 
