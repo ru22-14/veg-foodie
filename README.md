@@ -58,7 +58,7 @@ This section provides the information about contact details **(phone and email)*
 ![screenshot](/assets/screenshots/contact.png)
 
 
-## Existing Features
+### Existing Features
 
 #### Logo
 
@@ -92,10 +92,19 @@ This section provides the information about contact details **(phone and email)*
 
 # Technologies Used
 
-- Languages
+-  In this project **HTML** and **CSS** programming languages are being used.
+
 - [Google Fonts](https://fonts.google.com/)
+
+   - This project uses **google fonts** to add style to the Fonts.
+
 - [Font awesome icons](https://fontawesome.com/)
+
+   - Font awecome is being used in this project to provide **Icons** to social media links.
+
 - [Images](https://www.pexels.com/)
+
+   - All the **images** are being downloaded from this open source website.
 
 # Testing
 
