@@ -519,7 +519,13 @@ footer p {
         display: flex;
         font-size: small;
         }
-     /* main image */
+
+    /* logo */
+    #logo {
+        letter-spacing: normal;
+    }
+    
+    /* main image */
     #main-image{
         width: 100%;
         height: 400px;
@@ -685,6 +691,10 @@ footer p {
 
         padding-left: 30px;
         font-size: large;
+    }
+    /* request button */
+    .request-button {
+        margin-left: 2px;
     }
 }
 
