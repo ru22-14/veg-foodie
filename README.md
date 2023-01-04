@@ -4,7 +4,7 @@
 
 [Visit My Website](https://ru22-14.github.io/veg-foodie/)
 
-An interactive website for vegan or vegetarian food lovers living in Berlin, Germany. This website features online table reservation, Menu card display with delicious vegan and vegetarian dishes, desserts and drinks. The goal of this website is to provide tasty and healthy food options to the veg food lovers. This website is designed in a special way for the customers to be able to check the menu and reserve the table on Weekends or on special occasions in advance by following some very simple steps. A confirmation message will be sent to the customer.
+An interactive website for vegan or vegetarian food lovers living in Berlin, Germany. This website features online table reservation, Menu card display with delicious vegan and vegetarian dishes, desserts and drinks. The goal of this website is to provide tasty and healthy food options to the veg food lovers. This website is designed in a special way for the customers to be able to check the menu and reserve a table on Weekends or on special occasions in advance by following some very simple steps. A confirmation message will be sent to the customer after requesting a reservation.
 
 
 # Features
@@ -16,44 +16,44 @@ The purpose of the hero image is to get customers attention, to meet their expec
 
 ### Home 
 
-The Home page contains  **hero image**.In the middle of the hero image on home page there is a **online reservation** button to reserve/book a table. This button zoom out when clicked. 
+The Home page contains a **hero image**. In the middle of the hero image on home page there is an **online reservation** button to reserve/book a table. This button has a zoom out affect when hovered over it. 
 
 ![screenshot](/assets/screenshots/veg-foodie.png)
 
 ### Online Reservation
 
-This button is specifically created in the middle of the **hero image** to get customers attention and to make reservation quickly. Reservation button takes the customer to the reservation form which needs to fill in order to reserve a table.The purpose of this button is to make the website simple and user friendly for everyone.
+This button is specifically created in the middle of the **hero image** to get customers attention and to make reservation quickly. Reservation button takes the customer to the reservation form which needs to be filled in order to reserve a table. The purpose of this button is to make the website simple and user friendly for everyone.
 
 ### Request Form
 
-The request form has a background image and appears when click on **Online reservation** button located on hero image.
-The customer needs to enter a valid **email address, date, time and number of guests** in order to reserve a table. Then click on **request** button. 
+The request form has a background image and appears when a user clicks on the **Online reservation** button located on the hero image.
+The customer needs to enter a valid **email address, date, time and number of guests** in order to reserve a table and then click on the **request** button. 
 
 ![screenshot](/assets/screenshots/request.png)
 
 ### Confirmation
 
-The **request button** leads to another page which is the **Confirmation** page. This page has an image background. It displays a confirmation message to the customer. 
+The **request button** leads to another page that is the **Confirmation** page. It has a background image and displays a confirmation message to the customer. 
 
 ![screenshot](/assets/screenshots/confirmation.png)
 
 
 ### About Us
 
-The about us section reflects the **exact perpose** behind creating this website. It provides 
-**useful information** about preparing the meal and motivates the customer to satisfy their needs in a healthy way.
+The about us section reflects the **main idea** behind creating this website. It provides 
+**useful information** related to meal preparation and motivates the customers to satisfy their needs in a healthy way.
 
 ![screenshot](/assets/screenshots/about.png)
 
 ### Menu
 
-The menu section features two **menu cards**. These cards displays a complete list of   **appetizers**, **main dishes**, **desserts** and **drinks**. Customer can choose and order easily according to their taste. Menu cards have hover effect and change color when click on them. They appear differently on different screen sizes.  
+The menu section features two **menu cards**. These cards display a complete list of   **appetizers**, **main dishes**, **desserts** and **drinks**. The Customer can choose and order easily according to their wish. Menu cards changes color when hovered on them. They adjust themselves based on the screen resolution.  
 
 ![screenshot](/assets/screenshots/menu-cards.png)
 
 ### Contact
 
-This section provides the information about contact details **(phone and email)**, **opening hours**. The **address and directions** are also provided here.A **google map** is also embeded here to find or search the right location.  
+This section provides contact details **(phone and email)**, **opening hours**,  **address and directions** . A **google map** is also embedded in order to find or search the exact location.  
 
 ![screenshot](/assets/screenshots/contact.png)
 
@@ -62,11 +62,11 @@ This section provides the information about contact details **(phone and email)*
 
 #### Logo
 
-- Header Logo exists on every page and helps the user to recognise the Brand name and come back on home page by clicking it.
+- Header Logo exists on every page and helps the user to recognise the Brand name and come back on home page by clicking on it.
 
 #### Navigation bar
 
-- Navigation bar also exists on all three pages and helps the users to navigate easily in between  
+- Navigation bar exists on all three pages and helps the user to navigate easily in between  
   different sections and pages.
 
 #### Contact
@@ -88,7 +88,7 @@ This section provides the information about contact details **(phone and email)*
 #### Footer Social Media Icons
 
 - Exists on all pages so the user can easily access all the social media platforms.
-  All the media icons show a golden zoom in border when hover over them.
+  All the media icons show a golden zoom in border when hovered over them.
 
 
 # Technologies Used
@@ -97,11 +97,11 @@ This section provides the information about contact details **(phone and email)*
 
 - [Google Fonts](https://fonts.google.com/)
 
-   - This project uses **google fonts** to add style to the Fonts.
+   - This project uses **google fonts** to add style to the fonts.
 
 - [Font awesome icons](https://fontawesome.com/)
 
-   - Font awecome is being used in this project to provide **Icons** to social media links.
+   - Font awesome is being used in this project to provide **icons** to social media links.
 
 - [Images](https://www.pexels.com/)
 
@@ -115,14 +115,16 @@ This section provides the information about contact details **(phone and email)*
 
 1. Logo
 
-    1. Change screen size from Desktop/laptop to tab and mobile and see how it changes its         spacing and size.
-    2. While on other pages click the logo to get back on home page.
+    1. Change screen size from Desktop/laptop to tablet and mobile and see how it changes         
+       its spacing and size.
+    2. While on other pages click the logo to get back to home page.
 
 2. Navigation bar
 
     1. Go to home page from desktop/laptop. 
-    2. Change the screen size to tablet view and mobile view to check if the navigation bar is responsive and go under the Logo on the left side.
-    3. click on the logo and check if it brings back to the home page.
+    2. Change the screen size to tablet view and mobile view to check if the navigation bar is 
+       responsive and go under the Logo on the left side.
+    3. Click on the logo and check if it brings back to the home page.
     4. Hover over the navigation bar and verify if a square border appears on each of them.
 
 3. Hero image
