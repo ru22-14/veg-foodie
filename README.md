@@ -198,6 +198,33 @@ This section provides the information about contact details **(phone and email)*
 
 ## Deployment
 
+This project was developed using the Gitpod, committed to git and pushed to GitHub using the built in function within github.
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select ru22-14/veg-foodie.
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Main Branch.
+6. On selecting Main Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+How to run this project locally?
+To clone this project into Gitpod you will need:
+
+1. A Github account. Create a Github account here
+2. Use the Chrome browser
+Then follow these steps:
+
+1. Install the Gitpod Browser Extentions for Chrome.
+2. After installation, restart the browser.
+3. Log into Gitpod with your gitpod account.
+4. Navigate to the Project GitHub repository
+5. Click the green "Gitpod" button in the top right corner of the respository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can  
+   work locally.
+
 
 ## Credits
 
