@@ -156,8 +156,8 @@ This section provides the information about contact details **(phone and email)*
 
 7. Footer
 
-1. Change the width of the window to tablet and mobile view and verify if the footer remains in the center and does not overlap.
-2. verify all the social media icons show a golden zoom in border when hover over them.
+    1. Change the width of the window to tablet and mobile view and verify if the footer remains in the center and does not overlap.
+    2. verify all the social media icons show a golden zoom in border when hover over them.
 
 ### Reservation Form
 
@@ -168,8 +168,7 @@ This section provides the information about contact details **(phone and email)*
 2. Form    
     1. Enter all the rquired data and click on request button.
     2. Verify if the request button changes its border and font from black to golden colour when hover over it.
-    3. change the sreen size to tablet and mobile view and see if the form changes its width and moves 
-   to the left.
+    3. change the sreen size to tablet and mobile view and see if the form changes its width and moves to the left.
 3. Footer 
 
     1. Verify that the footer remains in the middle while reducing and expanding the window width.
