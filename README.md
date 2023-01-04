@@ -109,7 +109,7 @@ This section provides contact details **(phone and email)**, **opening hours**, 
 
 # Testing
 
-### Manual Testing of all elements and functionality on different screen sizes
+### Manual Testing of all elements and functionality on different screen resolutions
 
 #### Home
 
@@ -117,77 +117,84 @@ This section provides contact details **(phone and email)**, **opening hours**, 
 
     1. Change screen size from Desktop/laptop to tablet and mobile and see how it changes         
        its spacing and size.
-    2. While on other pages click the logo to get back to home page.
+    2. While on other pages click the logo to redirect to the home page.
 
 2. Navigation bar
 
     1. Go to home page from desktop/laptop. 
     2. Change the screen size to tablet view and mobile view to check if the navigation bar is 
-       responsive and go under the Logo on the left side.
-    3. Click on the logo and check if it brings back to the home page.
-    4. Hover over the navigation bar and verify if a square border appears on each of them.
+       responsive and moves under the Logo on the left side.
+    3. Click on the logo and check if it takes the user to the home page.
+    4. Hover over the navigation bar and verify if a square border appears on each of the  
+       navigation options.
 
 3. Hero image
 
-    1. Go to home page from desktop/laptop. 
-    2. Change the screen size to tablet view and mobile view to check if the image shrinks and expands according to the screen size.
-    3. verify the is no overflow.
+    1. Go to the home page from desktop/laptop. 
+    2. Change the screen size to tablet view and mobile view to check if the image contracts and 
+       expands according to the screen size.
+    3. Verify that there is no overflow.
 
 3. Online reservation
 
-    1. hover over the online reservation button and see how much  it zoom out in medium to small screen sizes.
-    2. verify it is fixed in the middle.
+    1. Hover over the online reservation button and see how much  it zooms out in all the different 
+       screen sizes.
+    2. Verify that it always stays in the middle.
 
 4. About Us
 
-    1. Change the screen size to tablet view and mobile view to check if the about us section schrinks and a scroll bar appears when reduces the screen size.
+    1. Change the screen size to tablet view and mobile view to check if the about us section 
+       contracts and a scroll bar appears.
 
 5. Menu
 
-    1. Reduce and expand the width of the window to experience change in the shape of both menu cards.
-    2. Verify they dont overlap each other when changes the screen to tablet and mobile view.
-    3. Verify that scroll bar appears on both menu cards when changes on mobile view.
-    4. Hover over them to see if they change colourfrom transparent background to black background with 
-   a golden border.
+    1. Reduce and increase the size of the window to experience change in the shape of both menu 
+       cards.
+    2. Verify that they dont overlap each other when the screen size is changed to tablet and  
+       mobile view.
+    3. Verify that the scroll bar appears on both menu cards when the screen size is changed to 
+       mobile view.
+    4. Hover over them to see if they change color from transparent to black background with a golden border.
 
 6. Contact
 
-    1. Reduce and expand the width of the window to see if the contact section changes its display.
-    2. verify that the contact, opening hours and address moves towards left while reducing the screen to mobile view and google map moves below.
-    3. verify if a vertically and horizontally scroll bar appears in map.    
+    1. Reduce and increase the size of the window to see if the contact section changes its 
+       display.
+    2. Verify that the contact, opening hours and address moves towards left  and the google map 
+       moves below it on changing the screen size to mobile view.
+    3. Verify that a vertical and horizontal scroll bar appears in the map on reducing the screen 
+       size.    
 
 7. Footer
 
-    1. Change the width of the window to tablet and mobile view and verify if the footer remains in the center and does not overlap.
-    2. verify all the social media icons show a golden zoom in border when hover over them.
+    1. Change the size of the window to tablet and mobile view and verify that the footer remains  
+       in the center and does not overlap.
+    2. Verify that all the social media icons show a golden zoom-in border when the user hovers over them.
 
 ### Reservation Form
 
-1. Go to Home page and click the online reservation button located in the hero image.
-2. verify if a new page opens in a new tab.
+1. Go to the Home page and click the online reservation button located in the center of the hero image.
+2. Verify that a new page always opens in a new tab.
 1. Navigation bar
-    1. Reduce the window width to see if the navigation bar goes on the left under the logo.
+    1. Reduce the window size to see if the navigation bar moves on to the left under the logo.
 2. Form    
-    1. Enter all the rquired data and click on request button.
-    2. Verify if the request button changes its border and font from black to golden colour when hover over it.
-    3. change the sreen size to tablet and mobile view and see if the form changes its width and moves to the left.
+    1. Enter all the required data and click on the request button.
+    2. Verify that the request button changes its border and font from black to golden colour when 
+       the user hovers over it.
+    3. Change the sreen size to tablet and mobile view and see if the form changes its size and 
+       moves to the left.
 3. Footer 
-
-    1. Verify that the footer remains in the middle while reducing and expanding the window width.
-    2. Hover over the social media icons to check if a slow zoom in border appears.       
+    1. Verify that the footer remains in the center while reducing and increasing the size of the 
+       window.
+    2. Hover over the social media icons to check if a slow zoom-in border appears.       
 
 ### Confirmation
 
-1. Enter required data and press the request button on reservation form and see if a new page opens 
-   in a new tab.
-2. Navigation bar   
-    1. Verify the navigation bar same as in home page.
-3. Confirmation    
-    1. Reduce the window width to see how the confirmation message changes its place to the left.
-4. Footer    
-    1. repeat the steps same as we did in Home.
-
-
+1. Enter the required data and press the request button on the reservation form and see if a new 
+   page opens in a new tab.
+2. Navigation bar: Verify that the navigation bar is the same as on the home page.
+3. Confirmation: Reduce the window size to see that the confirmation message moves to the left.
+4. Footer: Repeat the same steps performed in the previos sections.
 
 
 ## Validator 
@@ -200,7 +207,7 @@ This section provides contact details **(phone and email)**, **opening hours**, 
 
 ## Deployment
 
-This project was developed using the Gitpod, committed to git and pushed to GitHub using the built in function within github.
+This project was developed using Gitpod, committed and pushed to a private GitHub repository.
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
@@ -216,8 +223,7 @@ How to run this project locally?
 To clone this project into Gitpod you will need:
 
 1. A Github account. Create a Github account here
-2. Use the Chrome browser
-Then follow these steps:
+2. Use the Chrome browser and then follow these steps:
 
 1. Install the Gitpod Browser Extentions for Chrome.
 2. After installation, restart the browser.
@@ -237,27 +243,30 @@ Then follow these steps:
 #### Media
 
 - All the images used in this website are obtained from [pexels](https://www.pexels.com/)
-- This is an open source to get good quality pictures.
-- All the screenshots are taken from my laptop.
+- It is an open source image library to get good quality images.
+- All the screenshots are taken from my personal laptop.
 
 #### Code
 
 - Basic inspiration for this project is been taken from the [Love Running Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/)
 
-- To give online reservation link a zoom out effect i got help from [systranbox](https://www.systranbox.com/how-can-i-zoom-one-div-without-zooming-the-page/)
+- To give the online reservation link a zoom-out effect i got help from [systranbox](https://www.systranbox.com/how-can-i-zoom-one-div-without-zooming-the-page/)
 
 #### Acknowledgements
 
-- I decided to create a food related website as i love cooking and baking. i always try to learn new tasty and healthy recipes.
-- My mentor Elaine Roche helped me with the responsive issues.
+- I decided to create a food related website as i love cooking and baking. i always try to learn  
+  new recipes that are healthy and at the same time tase good too.
+- My mentor Elaine Roche motivated me and helped me with some responsiveness issues that i was 
+  facing.
 
 
 #### An Advice
 
-- Focus on learning good coding.
-- learn how to commit.
-- focus on responsive elements as this is the most difficult part.
-- Dont take README file easy :) it requires proper time and effort to create README file.
+- Focus on learning to write good quality code.
+- Commit yourself to reach your deadlines.
+- Focus on the responsive elements as this is the most difficult part.
+- Dont take the README file easy :-) it requires a great amount of time and effort to write a good 
+  README file.
 
 
 
