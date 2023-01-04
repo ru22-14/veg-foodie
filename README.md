@@ -207,7 +207,7 @@ This section provides contact details **(phone and email)**, **opening hours**, 
 
 ## Deployment
 
-This project was developed using Gitpod, committed and pushed to a private GitHub repository.
+This project was developed using Gitpod, committed and pushed to a GitHub repository.
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
