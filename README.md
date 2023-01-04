@@ -252,10 +252,14 @@ Then follow these steps:
 
 #### An Advice
 
+- Focus on learning good coding.
+- learn how to commit.
+- focus on responsive elements as this is the most difficult part.
+- Dont take README file easy :) it requires proper time and effort to create README file.
 
 
 
 
 
 
-[def]: /assets/veg-foodie.png
+
