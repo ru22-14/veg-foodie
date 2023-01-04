@@ -229,7 +229,27 @@ Then follow these steps:
 ## Credits
 
 #### Content
+
+- After searching about vegan and vegetarian food on google the text for About Us is created by Rohina Usman.
+
 #### Media
+
+- All the images used in this website are obtained from [pexels](https://www.pexels.com/)
+- This is an open source to get good quality pictures.
+- All the screenshots are taken from my laptop.
+
+#### Code
+
+- Basic inspiration for this project is been taken from the [Love Running Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/)
+
+- To give online reservation link a zoom out effect i got help from [systranbox](https://www.systranbox.com/how-can-i-zoom-one-div-without-zooming-the-page/)
+
+#### Acknowledgements
+
+- I decided to create a food related website as i love cooking and baking. i always try to learn new tasty and healthy recipes.
+- My mentor Elaine Roche helped me with the responsive issues.
+
+
 #### An Advice
 
 
