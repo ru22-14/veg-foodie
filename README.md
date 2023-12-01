@@ -1,6 +1,8 @@
 <h1 align="center">VEG FOODIE</h1>
 
-## Restaurant
+<h2 align="center">Restaurant</h2>
+
+<img src="assets/screenshots/pp1.jpg" width="100%" align="center">
 
 [Visit My Website](https://ru22-14.github.io/veg-foodie/)
 
