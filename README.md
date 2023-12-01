@@ -6,6 +6,8 @@
 
 [Visit My Website](https://ru22-14.github.io/veg-foodie/)
 
+# Introduction
+
 An interactive website for vegan or vegetarian food lovers living in Berlin, Germany. This website features online table reservation, Menu card display with delicious vegan and vegetarian dishes, desserts and drinks. The goal of this website is to provide tasty and healthy food options to the veg food lovers. This website is designed in a special way for the customers to be able to check the menu and reserve a table on Weekends or on special occasions in advance by following some very simple steps. A confirmation message will be sent to the customer after requesting a reservation.
 
 
