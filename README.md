@@ -1,4 +1,4 @@
-# VEG FOODIE
+<h1 align="center">VEG FOODIE</h1>
 
 ## Restaurant
 
